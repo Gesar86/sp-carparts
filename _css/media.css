@@ -15,6 +15,52 @@
     header .top-header .currency {
         font-size: 11px;
     }
+    .main-mnu {
+        position: absolute;
+        top: 48px;
+        left: -20em;
+        width: 20em;
+        display: none;
+        background-color: #385570;
+        z-index: 1000;
+        border-top: 1px solid #000;
+    }
+    .main-mnu ul > li {
+        height: 100%;
+        width: 100%;
+        text-align: left;
+        margin: 0;
+    }
+    .top-line label {
+        display: inline-block;
+        font-size: 14px;
+        padding: 14px;
+        position: relative;
+        padding-left: 30px;
+    }
+    .top-line label:before {
+        content: "\2261";
+        position: absolute;
+        top: 13px;
+        left: 14px;
+        font-size: 18px;
+    }
+    .top-line label:hover {
+        background-color: #268acb;
+    }
+    .top-line input:checked ~ nav {
+        display: block;
+        left: 0;
+    }
+    /*.top-line input:checked ~ nav ul > li:after {*/
+        /*position: absolute;*/
+        /*right: .25em;*/
+        /*content: "\203A";*/
+        /*font: bold 1.4em sans-serif;*/
+        /*color: inherit;*/
+    /*}*/
+
+
 }
 
 /* Medium Devices, Desktops */
@@ -45,11 +91,86 @@
         padding-left: 40px;
         margin-top: 11px;
     }
+    .detail-search {
+        padding-left: 38px;
+    }
+    .detail-search input {
+        width: 92%;
+    }
+    .warning_msg {
+        font-size: 14px;
+    }
+    .main-wrapper .main-box-item i {
+        font-size: 80px;
+    }
+    .main-wrapper .main-box-item p {
+        font-size: 13px;
+    }
+    .highlight p {
+        font-size: 13px;
+    }
+    footer h3 {
+        font-size: 15px;
+    }
+    footer ul li a {
+        font-size: 13px;
+    }
+    footer .stock {
+        font-size: 13px;
+    }
+    footer .copyright_box .copiryght {
+        font-size: 15px;
+    }
 }
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
+    header .top-header .logo {
+        text-align: center;
+    }
+    header .top-header .description {
+        margin-top: 20px;
+        text-align: center;
+    }
+    header .top-header .description::before {
+        display: none;
+    }
+    header .top-header .currency {
+        text-align: center;
+        padding: 0;
+        margin-top: 24px;
+    }
+    header .top-header .top-address {
 
+    }
+    .top-header .top-address .t-cont {
+        float: left;
+    }
+    header .top-header .top-address .t-address {
+        padding-left: 35px;
+        margin-right: 16px;
+    }
+    header .top-header .top-address .t-address:before {
+        top: 2px;
+    }
+    header .top-header .top-address .t-mail {
+        padding-left: 35px;
+        margin-right: 16px;
+        line-height: 28px;
+    }
+    header .top-header .top-address .t-skype {
+        padding-left: 35px;
+        line-height: 29px;
+    }
+    header .top-header .top-address .t-skype::before {
+        top: -1px;
+    }
+    .informer {
+        display: none;
+    }
+    footer .phone-bottom {
+        text-align: left;
+    }
 }
 
 /* Extra Small Devices, Phones */

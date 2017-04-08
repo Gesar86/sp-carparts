@@ -3,7 +3,7 @@ $curUSD = number_format((float)$currencies[2]['crt_rate'], 2, '.', ' ');
 $curEURO = number_format((float)$currencies[3]['crt_rate'], 2, '.', ' ');
 $nativeCur = $client->Interface->nativeCurInfo;$auth_client = ((int)$client->cst_category_id > 0 ? true : false);
 $__BUFFER->AddContent('HEADER', '<meta name="SKYPE_TOOLBAR" content="SKYPE_TOOLBAR_PARSER_COMPATIBLE" />');
-$__BUFFER->AddContent('CUSTOM_HEADER', '<meta http-equiv="X-UA-Compatible" content="IE=edge">');
+$__BUFFER->AddContent('CUSTOM_HEADER', '<meta http-equiv="X-UA-Compatible" content="IE=edge"><meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">');
 ?>
 <script>
     function openbox(id,tt) {
@@ -24,12 +24,14 @@ $__BUFFER->AddContent('CUSTOM_HEADER', '<meta http-equiv="X-UA-Compatible" conte
     <div id="top_line" class="top-line">
         <div class="container">
             <div class="row">
-                <div class="col-md-9">
-                    <nav class="main-mnu">
+                <div class="col-lg-9 col-md-5 col-xs-4">
+                    <input type="checkbox" id="menu">
+                    <label for="menu" onclick>МЕНЮ САЙТА</label> <!-- иконка для маленьких экранов -->
+                    <nav class="main-mnu" role="off-canvas">
                         <? NavigationPart("top_menu", "USER_PHP_TEMPLATES:/content/tpl.left_menu.php", "DR_PHP"); ?>
                     </nav>
                 </div>
-                <div class="col-md-3">
+                <div class="col-lg-3 col-md-7 col-xs-8">
                     <ul class="reg">
                         <? if ($auth_client) { ?>
                             <li><a href="/shop/basket.html"><span>Корзина</span></a></li>
@@ -143,25 +145,25 @@ $__BUFFER->AddContent('CUSTOM_HEADER', '<meta http-equiv="X-UA-Compatible" conte
                         </div>
                         <div class="container">
                             <div class="row">
-                                <div class="col-md-4">
+                                <div class="col-md-4 col-sm-3 col-xs-6">
                                     <a href="/original_accessories" class="main-box-item origin-color">
                                         <i class="my my_k"></i>
                                         <p>Оригинальные аксессуары</p>
                                     </a>
                                 </div>
-                                <div class="col-md-2">
+                                <div class="col-md-2 col-sm-3 col-xs-6">
                                     <a href="#" class="main-box-item lighten-color">
                                         <i class="my my_i"></i>
                                         <p>Рестайлинг</p>
                                     </a>
                                 </div>
-                                <div class="col-md-4">
+                                <div class="col-md-4 col-sm-3 col-xs-6">
                                     <a href="#" class="main-box-item lighten-color">
                                         <i class="my my_e"></i>
                                         <p>Оригинальные масла</p>
                                     </a>
                                 </div>
-                                <div class="col-md-2">
+                                <div class="col-md-2 col-sm-3 col-xs-6">
                                     <a href="vin/form.html" class="main-box-item main-color">
                                         <i class="my my_a"></i>
                                         <p>VIN-запрос</p>
@@ -171,25 +173,25 @@ $__BUFFER->AddContent('CUSTOM_HEADER', '<meta http-equiv="X-UA-Compatible" conte
                         </div>
                         <div class="container">
                             <div class="row">
-                                <div class="col-md-2">
+                                <div class="col-md-2 col-sm-9 col-xs-6">
                                     <a href="#" class="main-box-item lighten-color">
                                         <i class="my my_c"></i>
                                         <p>Аккумуляторы</p>
                                     </a>
                                 </div>
-                                <div class="col-md-2">
+                                <div class="col-md-2 col-sm-3 col-xs-6">
                                     <a href="#" class="main-box-item light-color">
                                         <i class="my my_j"></i>
                                         <p>Шины</p>
                                     </a>
                                 </div>
-                                <div class="col-md-4">
+                                <div class="col-md-4 col-sm-3 col-xs-6">
                                     <a href="#" class="main-box-item origin-color">
                                         <i class="my my_g"></i>
                                         <p>Контрактные двигателя</p>
                                     </a>
                                 </div>
-                                <div class="col-md-4">
+                                <div class="col-md-4 col-sm-9 col-xs-6">
                                     <a href="http://www.fps-catalog.com.ua/" target="_blank" class="main-box-item light-color">
                                         <i class="my my_h"></i>
                                         <p>Кузовные детали</p>
@@ -199,25 +201,25 @@ $__BUFFER->AddContent('CUSTOM_HEADER', '<meta http-equiv="X-UA-Compatible" conte
                         </div>
                         <div class="container">
                             <div class="row">
-                                <div class="col-md-4">
+                                <div class="col-md-4 col-sm-3 col-xs-6">
                                     <a href="#" class="main-box-item lighten-color">
                                         <i class="my my_f"></i>
                                         <p>Аксессуары</p>
                                     </a>
                                 </div>
-                                <div class="col-md-2">
+                                <div class="col-md-2 col-sm-3 col-xs-6">
                                     <a href="#" class="main-box-item lighten-color">
                                         <i class="my my_d"></i>
                                         <p>Шины</p>
                                     </a>
                                 </div>
-                                <div class="col-md-2">
+                                <div class="col-md-2 col-sm-3 col-xs-6">
                                     <a href="#" class="main-box-item origin-color">
                                         <i class="my my_b"></i>
                                         <p>Форсунки</p>
                                     </a>
                                 </div>
-                                <div class="col-md-4">
+                                <div class="col-md-4 col-sm-3 col-xs-6">
                                     <a href="#" class="main-box-item lighten-color">
                                         <i class="my my_l"></i>
                                         <p>Щетки стеклоочистители</p>
@@ -271,12 +273,12 @@ $__BUFFER->AddContent('CUSTOM_HEADER', '<meta http-equiv="X-UA-Compatible" conte
     </div>
     <div class="container">
         <div class="row">
-            <div class="col-md-6">
+            <div class="col-md-6 col-sm-6 col-xs-6">
                 <div class="copyright_box">
                     <? ContentPart('copyright'); ?>
                 </div>
             </div>
-            <div class="col-md-6">
+            <div class="col-md-6 col-sm-6 col-xs-6">
                 <div class="copyright_box">
                     <div class="copyright_ts"><?php echo $CONST["copy"]; ?></div>
                 </div>

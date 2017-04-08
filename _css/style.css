@@ -15,7 +15,10 @@ body {
   position: relative;
   line-height: 1.42857;
   -webkit-font-smoothing: antialised; }
-
+html, body {
+    margin: 0;
+    overflow-x: hidden;
+}
 body input:focus:required:invalid,
 body textarea:focus:required:invalid {
   color: red; }
@@ -75,9 +78,13 @@ header {
         background-image: url(../img/arrow-down.png); }
   header ul, header li {
     list-style-type: none; }
-header .main-mnu {
-    position: relative; }
-    header .main-mnu ul li, header .main-mnu li li {
+.top-line input {
+    display: none;
+}
+.top-line label {
+    display: none;
+}
+    header ul li, header li li {
       display: inline-block; }
       header ul li a, header li li a {
         color: #fff;
@@ -100,7 +107,7 @@ header .top-header .logo {
       font-size: 14px;
       position: relative;
       padding-left: 50px;
-      margin-top: 18px;
+      margin-top: 12px;
       line-height: 14px;
       color: #32cd32;
       font-weight: bold;}
@@ -127,7 +134,8 @@ header .top-header .logo {
       font-size: 16px; }
       header .top-header .top-address .t-cont {
         padding-left: 50px;
-        display: block; }
+        display: block;
+        margin: 0; }
       header .top-header .top-address .t-address {
         position: relative;
         line-height: 16px;
