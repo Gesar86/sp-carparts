@@ -82,6 +82,14 @@ header {
       background-color: #268acb; }
   header .top-header {
     padding: 20px 0; }
+    header .top-header .currency {
+      font-size: 14px;
+      position: relative;
+      padding-left: 50px;
+      margin-top: 18px;
+      line-height: 14px;
+      color: #32cd32;
+      font-weight: bold;}
     header .top-header .description {
       font-size: 16px;
       position: relative;
