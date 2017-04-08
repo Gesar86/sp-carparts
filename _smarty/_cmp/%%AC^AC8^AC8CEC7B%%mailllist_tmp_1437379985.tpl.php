@@ -1,0 +1,3 @@
+<?php /* Smarty version 2.6.14, created on 2015-07-20 11:13:06
+         compiled from /home/www/autocom.net.ua/www/_debug/mailllist_tmp_1437379985.tpl */ ?>
+<p><span style="color: #5f5f5f; font-family: Arial, Tahoma, Verdana, sans-serif; font-size: 12px; line-height: 18px; background-color: #f5f6f5;">В связи с не стабильной ситуации на границе , срок поставки увеличен , средний срок 12 / 24 дня , приносим извинения за принесенные неудобства !</span></p>

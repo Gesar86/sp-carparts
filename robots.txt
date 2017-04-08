@@ -1,0 +1,7 @@
+User-agent: *
+Crawl-delay: 10
+Disallow: /search*
+Disallow: /recover_password.html
+Disallow: /registration.html
+Disallow: /basket.html
+Host: autocom.net.ua

@@ -1,0 +1,6 @@
+[07-Apr-2017 15:43:41 Europe/Moscow] PHP Notice:  You must provide at least one recipient email address. in /home/www/_LIB/_UNIVERSAL/email/lib.email-func.php on line 0
+[07-Apr-2017 15:43:41 Europe/Moscow] PHP Warning:  Invalid argument supplied for foreach() in /home/www/_LIB/_UNIVERSAL/email/lib.email-func.php on line 0
+[07-Apr-2017 15:52:54 Europe/Moscow] PHP Notice:  You must provide at least one recipient email address. in /home/www/_LIB/_UNIVERSAL/email/lib.email-func.php on line 0
+[07-Apr-2017 15:52:54 Europe/Moscow] PHP Warning:  Invalid argument supplied for foreach() in /home/www/_LIB/_UNIVERSAL/email/lib.email-func.php on line 0
+[07-Apr-2017 15:55:28 Europe/Moscow] PHP Notice:  You must provide at least one recipient email address. in /home/www/_LIB/_UNIVERSAL/email/lib.email-func.php on line 0
+[07-Apr-2017 15:55:28 Europe/Moscow] PHP Warning:  Invalid argument supplied for foreach() in /home/www/_LIB/_UNIVERSAL/email/lib.email-func.php on line 0

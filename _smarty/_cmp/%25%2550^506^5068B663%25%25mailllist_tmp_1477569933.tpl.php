@@ -1,0 +1,5 @@
+<?php /* Smarty version 2.6.14, created on 2016-10-27 15:05:34
+         compiled from /home/www/autocom.net.ua/www/_debug/mailllist_tmp_1477569933.tpl */ ?>
+<h3>Информационное сообщение фирмы SP-CARPARTS<br /><br /></h3>
+<p><span style="color: #777777; font-family: Verdana, 'Courier New', serif; font-size: 12px;">Добрый день!</span><br style="color: #777777; font-family: Verdana, 'Courier New', serif; font-size: 12px;" /><span style="color: #777777; font-family: Verdana, 'Courier New', serif; font-size: 12px;"><br />31.10.2016 и 01.11.2016 на некоторых землях германии праздничные дни.</span><br style="color: #777777; font-family: Verdana, 'Courier New', serif; font-size: 12px;" /><span style="color: #777777; font-family: Verdana, 'Courier New', serif; font-size: 12px;">поэтому, на следующей неделе, возможны задержки по поставкам.&nbsp;</span></p>
+<h3>С уважением sp-carparts</h3>

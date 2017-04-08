@@ -1,0 +1,744 @@
+Time: 13-02-31
+
+From: office@sp-carparts.com.ua
+
+To: Akmal80@inbox.ru
+
+Subject: Изменение пароля на сайте sp-carparts.com.ua
+
+URL: /shop/personal/info.html?subj=customform3&_prid=1
+
+Charset: utf-8
+
+SystemCharset: utf-8
+
+Attachments: array (
+)
+
+Headers: Content-Type: text/html;
+charset="utf-8"
+From: Администрация <office@sp-carparts.com.ua>
+Text: <html><body>
+<h3>Изменение пароля на сайте sp-carparts.com.ua</h3>
+<p>Ваш пароль был изменен на новый: 14071980</p>
+		</body></html>
+
+
+Status: send
+---------------------------------------------------------------------------------
+
+
+
+
+Time: 13-11-17
+
+From: noreply@sp-carparts.com.ua
+
+To: office@sp-carparts.com.ua
+
+Subject: Оформление VIN-запроса на сайте sp-carparts.com.ua
+
+URL: /vin/form.html
+
+Charset: utf-8
+
+SystemCharset: utf-8
+
+Attachments: array (
+)
+
+Headers: Content-Type: text/html;
+charset="utf-8"
+From: Алиев Акмал <Akmal80@inbox.ru>
+
+Text: <html><body><h3>Запрос успешно оформлен</h3>
+					
+<table border=0 cellspacing=3 cellpadding=3 style='font-size: 90%'>
+
+<tr><td colspan=4><H3>Данные автомобиля<hr noshade size=1></H3></td></tr>
+
+<tr bgcolor=#EDF1F5>
+	<td>VIN-код / N кузова</td><td colspan=3>NLAFB8660CW002714</td>
+</tr>
+
+<tr bgcolor=#EDF1F5>
+	<td>Год</td><td><span style="white-space: nowrap">2012</span></td>
+	<td>Месяц</td><td><span style="white-space: nowrap">(не выбрано)</span></td>
+</tr>
+
+<tr bgcolor=#EDF1F5>
+	<td>Марка</td><td><span style="white-space: nowrap">HONDA</span></td>
+	<td>Модель</td><td>civic</td>
+</tr>
+
+<tr bgcolor=#EDF1F5>
+	<td>Мощность, л.с.</td><td></td>
+	<td>Объем двигателя, см<sup>3</sup></td><td>1.8</td>
+</tr>
+
+<tr bgcolor=#EDF1F5>
+	<td>Дополнительная информация</td>
+	<td colspan=3></td>
+</tr>
+
+<tr bgcolor=#EDF1F5>
+	<td>Цилиндров</td><td></td>
+	<td>Клапанов</td><td></td>
+</tr>
+
+<tr bgcolor=#EDF1F5>
+	<td>Тип кузова</td><td><span style="white-space: nowrap">(не выбрано)</span></td>
+	<td>Число дверей</td><td><span style="white-space: nowrap">(не выбрано)</span></td>
+</tr>
+
+<tr bgcolor=#EDF1F5>
+	<td>Тип/буквы двигателя</td><td></td>
+	<td>Привод</td><td><span style="white-space: nowrap">(не выбрано)</span></td>
+</tr>
+
+<tr bgcolor=#EDF1F5>
+	<td>Тип кпп</td><td><span style="white-space: nowrap">(не выбрано)</span></td>
+	<td>Номер кпп</td><td></td>
+</tr>
+
+<tr bgcolor=#EDF1F5>
+	<td>Руль</td><td><input name="steering" type="radio" value="L" id="rb1" /><label for="rb1">Слева</label>&nbsp;<input name="steering" type="radio" value="R" id="rb2" /><label for="rb2">Справа</label>&nbsp;
+</td>
+	<td colspan=3></td>
+</tr>
+
+<tr bgcolor=#EDF1F5>
+	<td></td>
+	<td colspan=3>
+		<table border=0>
+			<tr>
+				<td valign=top>
+					ABS - <font color='#A0A0A0'>нет</font><br>
+					ESP - <font color='#A0A0A0'>нет</font><br>
+					УР - <font color='#A0A0A0'>нет</font><br>
+					Кондиционер - <font color='#A0A0A0'>нет</font><br>
+					Катализатор - <font color='#A0A0A0'>нет</font><br>
+				</td>
+			</tr>
+		</table>
+	</td>
+</tr>
+
+<tr><td colspan=4><H3 style='margin-top: 15px'>Названия и описания требуемых запчастей<hr noshade size=1></H3></td></tr>
+
+<tr><td colspan="4">
+<table border=0 cellspacing=3 cellpadding=3 style='font-size: 90%'>
+
+<tr bgcolor=#EDF1F5>
+	<th width="200">
+		Наименование
+	</th>	
+	<th width="110">
+		Артикул
+	</th>
+	<th width="50">
+		Кол-во
+	</th>
+	<th width="150">
+		Примечание
+	</th>
+</tr>	
+
+
+				
+<tr bgcolor=#EDF1F5>
+	<td width="200">
+		Бампер передный
+	</td>	
+	<td width="110">
+		
+	</td>
+	<td width="50">
+		1
+	</td>
+	<td width="150">
+		
+	</td>
+
+</tr>
+				
+<tr bgcolor=#EDF1F5>
+	<td width="200">
+		Противотуманка левая
+	</td>	
+	<td width="110">
+		
+	</td>
+	<td width="50">
+		1
+	</td>
+	<td width="150">
+		
+	</td>
+
+</tr>
+				
+<tr bgcolor=#EDF1F5>
+	<td width="200">
+		Направляющая бампера левая
+	</td>	
+	<td width="110">
+		
+	</td>
+	<td width="50">
+		1
+	</td>
+	<td width="150">
+		
+	</td>
+
+</tr>
+				
+<tr bgcolor=#EDF1F5>
+	<td width="200">
+		Фара левая
+	</td>	
+	<td width="110">
+		
+	</td>
+	<td width="50">
+		1
+	</td>
+	<td width="150">
+		
+	</td>
+
+</tr>
+				
+<tr bgcolor=#EDF1F5>
+	<td width="200">
+		Подкрилок передний левый
+	</td>	
+	<td width="110">
+		
+	</td>
+	<td width="50">
+		1
+	</td>
+	<td width="150">
+		
+	</td>
+
+</tr>
+				
+<tr bgcolor=#EDF1F5>
+	<td width="200">
+		Усилитель переднего бампера
+	</td>	
+	<td width="110">
+		
+	</td>
+	<td width="50">
+		1
+	</td>
+	<td width="150">
+		
+	</td>
+
+</tr>
+				
+<tr bgcolor=#EDF1F5>
+	<td width="200">
+		Направляющая под фару левая
+	</td>	
+	<td width="110">
+		
+	</td>
+	<td width="50">
+		1
+	</td>
+	<td width="150">
+		
+	</td>
+
+</tr>
+</table>
+
+</td></tr>
+</table>с уважением , sp-carparts.com.ua
++38 044 428-20-45
++38 068 957-41-28
++38 093 475-72-46
++38 095 006-01-39
+Украина, г.Киев
+улица Луговая, 15</body></html>
+
+
+Status: send
+---------------------------------------------------------------------------------
+
+
+
+
+Time: 13-11-17
+
+From: office@sp-carparts.com.ua
+
+To: Akmal80@inbox.ru
+
+Subject: Оформление VIN-запроса на сайте sp-carparts.com.ua
+
+URL: /vin/form.html
+
+Charset: utf-8
+
+SystemCharset: utf-8
+
+Attachments: array (
+)
+
+Headers: From: Администрация <office@sp-carparts.com.ua>
+Text: <html><body><h3>Запрос успешно оформлен</h3>
+			
+<p>Вы успешно оформили запрос по VIN-коду N NLAFB8660CW002714.</p>
+<p>В ближайшее время он будет обработан и будет выслан ответ на указанный Вами e-mail. Спасибо, что воспользовались данной услугой на нашем сайте!</p>
+			
+<table border=0 cellspacing=3 cellpadding=3 style='font-size: 90%'>
+
+<tr><td colspan=4><H3>Данные автомобиля<hr noshade size=1></H3></td></tr>
+
+<tr bgcolor=#EDF1F5>
+	<td>VIN-код / N кузова</td><td colspan=3>NLAFB8660CW002714</td>
+</tr>
+
+<tr bgcolor=#EDF1F5>
+	<td>Год</td><td><span style="white-space: nowrap">2012</span></td>
+	<td>Месяц</td><td><span style="white-space: nowrap">(не выбрано)</span></td>
+</tr>
+
+<tr bgcolor=#EDF1F5>
+	<td>Марка</td><td><span style="white-space: nowrap">HONDA</span></td>
+	<td>Модель</td><td>civic</td>
+</tr>
+
+<tr bgcolor=#EDF1F5>
+	<td>Мощность, л.с.</td><td></td>
+	<td>Объем двигателя, см<sup>3</sup></td><td>1.8</td>
+</tr>
+
+<tr bgcolor=#EDF1F5>
+	<td>Дополнительная информация</td>
+	<td colspan=3></td>
+</tr>
+
+<tr bgcolor=#EDF1F5>
+	<td>Цилиндров</td><td></td>
+	<td>Клапанов</td><td></td>
+</tr>
+
+<tr bgcolor=#EDF1F5>
+	<td>Тип кузова</td><td><span style="white-space: nowrap">(не выбрано)</span></td>
+	<td>Число дверей</td><td><span style="white-space: nowrap">(не выбрано)</span></td>
+</tr>
+
+<tr bgcolor=#EDF1F5>
+	<td>Тип/буквы двигателя</td><td></td>
+	<td>Привод</td><td><span style="white-space: nowrap">(не выбрано)</span></td>
+</tr>
+
+<tr bgcolor=#EDF1F5>
+	<td>Тип кпп</td><td><span style="white-space: nowrap">(не выбрано)</span></td>
+	<td>Номер кпп</td><td></td>
+</tr>
+
+<tr bgcolor=#EDF1F5>
+	<td>Руль</td><td><input name="steering" type="radio" value="L" id="rb1" /><label for="rb1">Слева</label>&nbsp;<input name="steering" type="radio" value="R" id="rb2" /><label for="rb2">Справа</label>&nbsp;
+</td>
+	<td colspan=3></td>
+</tr>
+
+<tr bgcolor=#EDF1F5>
+	<td></td>
+	<td colspan=3>
+		<table border=0>
+			<tr>
+				<td valign=top>
+					ABS - <font color='#A0A0A0'>нет</font><br>
+					ESP - <font color='#A0A0A0'>нет</font><br>
+					УР - <font color='#A0A0A0'>нет</font><br>
+					Кондиционер - <font color='#A0A0A0'>нет</font><br>
+					Катализатор - <font color='#A0A0A0'>нет</font><br>
+				</td>
+			</tr>
+		</table>
+	</td>
+</tr>
+
+<tr><td colspan=4><H3 style='margin-top: 15px'>Названия и описания требуемых запчастей<hr noshade size=1></H3></td></tr>
+
+<tr><td colspan="4">
+<table border=0 cellspacing=3 cellpadding=3 style='font-size: 90%'>
+
+<tr bgcolor=#EDF1F5>
+	<th width="200">
+		Наименование
+	</th>	
+	<th width="110">
+		Артикул
+	</th>
+	<th width="50">
+		Кол-во
+	</th>
+	<th width="150">
+		Примечание
+	</th>
+</tr>	
+
+
+				
+<tr bgcolor=#EDF1F5>
+	<td width="200">
+		Бампер передный
+	</td>	
+	<td width="110">
+		
+	</td>
+	<td width="50">
+		1
+	</td>
+	<td width="150">
+		
+	</td>
+
+</tr>
+				
+<tr bgcolor=#EDF1F5>
+	<td width="200">
+		Противотуманка левая
+	</td>	
+	<td width="110">
+		
+	</td>
+	<td width="50">
+		1
+	</td>
+	<td width="150">
+		
+	</td>
+
+</tr>
+				
+<tr bgcolor=#EDF1F5>
+	<td width="200">
+		Направляющая бампера левая
+	</td>	
+	<td width="110">
+		
+	</td>
+	<td width="50">
+		1
+	</td>
+	<td width="150">
+		
+	</td>
+
+</tr>
+				
+<tr bgcolor=#EDF1F5>
+	<td width="200">
+		Фара левая
+	</td>	
+	<td width="110">
+		
+	</td>
+	<td width="50">
+		1
+	</td>
+	<td width="150">
+		
+	</td>
+
+</tr>
+				
+<tr bgcolor=#EDF1F5>
+	<td width="200">
+		Подкрилок передний левый
+	</td>	
+	<td width="110">
+		
+	</td>
+	<td width="50">
+		1
+	</td>
+	<td width="150">
+		
+	</td>
+
+</tr>
+				
+<tr bgcolor=#EDF1F5>
+	<td width="200">
+		Усилитель переднего бампера
+	</td>	
+	<td width="110">
+		
+	</td>
+	<td width="50">
+		1
+	</td>
+	<td width="150">
+		
+	</td>
+
+</tr>
+				
+<tr bgcolor=#EDF1F5>
+	<td width="200">
+		Направляющая под фару левая
+	</td>	
+	<td width="110">
+		
+	</td>
+	<td width="50">
+		1
+	</td>
+	<td width="150">
+		
+	</td>
+
+</tr>
+</table>
+
+</td></tr>
+</table>с уважением , sp-carparts.com.ua
++38 044 428-20-45
++38 068 957-41-28
++38 093 475-72-46
++38 095 006-01-39
+Украина, г.Киев
+улица Луговая, 15
+</body></html>
+
+
+Status: send
+---------------------------------------------------------------------------------
+
+
+
+
+Time: 15-52-27
+
+From: office@sp-carparts.com.ua
+
+To: rksodess@mail.ru
+
+Subject: Оформление заказа N K1-1838/7450 на сайте sp-carparts.com.ua
+
+URL: /shop/make_order.html?func=upd
+
+Charset: utf-8
+
+SystemCharset: utf-8
+
+Attachments: array (
+)
+
+Headers: Content-Type: text/html;
+charset="utf-8"
+From: Администрация <office@sp-carparts.com.ua>
+Text: <html><body>
+<h2>Ваш заказ успешно оформлен</h2>
+
+<p>Благодарим Вас за размещенный заказ на нашем сайте! Работающий с Вами менеджер его рассмотрит и в ближайшее время свяжется с Вами для согласования позиций.</p>
+
+
+<h2>Оплата и проведение заказа:</h2>
+
+<li>Вы выбрали способ оплаты  &laquo;денежный перевод&raquo;. 
+
+	<li><b><a href="http://sp-carparts.com.ua/shop/documents.html?dcm_id=e9cb54cbc877fe2cf2bc1293d2ec1254" target=_blank>Выписать все документы по данному заказу.</a></b>
+
+<li>При оплате наличными средствами у нас в офисе Вам необходимо приехать по адресу, указанному на странице "<a href="http://sp-carparts.com.ua/shop/personal/info.html" target=_blank>анкетные данные</a>".
+
+<li>Для просмотра информации о состоянии сделанных Вами заказов - перейдите в раздел "<a href="http://sp-carparts.com.ua/shop/myorders.html" target=_blank>перечень заказов</a>".
+<table border="0" width="100%">
+
+
+<tr><td colspan=2><H3 style='margin-top: 15px'>Информация о клиенте<hr noshade size=1></H3></td></tr>
+
+<tr><td>Клиент</td><td>
+Белоусов Павел </td></tr>
+
+<tr><td><span style="white-space: nowrap">Контактное лицо, ФИО</span></td><td>Белоусов Павел </td></tr>
+<tr><td>Телефоны</td><td>+380985745153 (основной)</td></tr>
+<tr><td>E-mail</td><td>rksodess@mail.ru</td></tr>
+
+<tr><td colspan=2><H3 style='margin-top: 15px'>Исполнение заказа<hr noshade size=1></H3></td></tr>
+
+<tr><td>Способ оплаты</td><td><span style="white-space: nowrap">денежный перевод</span></td></tr>
+<tr><td></td><td>
+</td></tr>
+<tr><td>Способ доставки</td><td><nobr >грузовая компания</nobr></td></tr>
+<tr><td>Адрес доставки</td><td></td></tr>
+
+
+
+<tr><td>Комментарий к заказу</td><td></td></tr>
+
+<tr><td colspan=2><H3 style='margin-top: 15px'>Содержание заказа<hr noshade size=1></H3></td></tr>
+
+<tr>
+	<td colspan=2>
+		<table>
+			<tr>
+																															<th>Артикул</th>
+																		<th>Производитель</th>
+																		<th>Наименование запчасти</th>
+																		<th>Срок <span style="white-space: nowrap">ср. / <strong>гар.</strong></span></th>
+																		<th>вес, кг</th>
+																		<th>Доставка за кг<br />Вес</th>
+																		<th><img src="http://sp-carparts.com.ua/images/info.gif" alt="информация"/></th>
+																		<th>цена</th>
+																											<th>кол-во</th>
+																		<th>сумма</th>
+																											<th>комментарий</th>
+																																							</tr>
+						<tr>
+																															<td>A2086982130</td>
+																		<td>MERCEDES</td>
+																		<td>ОРИГИНАЛЬНАЯ НОВАЯ ДЕТАЛЬ</td>
+																		<td>7</td>
+																		<td></td>
+																		<td><span style="white-space: nowrap">0.00&#160;&euro;</span></td>
+																		<td></td>
+																		<td>22.24&#160;&euro;</td>
+																											<td>1</td>
+																		<td>22.24&#160;&euro;</td>
+																											<td></td>
+																																							</tr>
+					</table>
+	</td>
+</tr>
+
+<tr height=60>
+	<td colspan=2>
+		<table border="0" width="100%">
+		<tr>
+			<td width="50%"><strong>Общая сумма заказа: 22.24&#160;&euro;</strong></td>
+			<td align=right width="50%"></td>
+		</tr>
+		</table>
+	</td></tr>
+</table>
+
+<h2>Состояние расчетов</h2>
+
+<li><b>На вашем счету: </b>3.29 &euro;
+<li><b>Долг по заказам на сумму: </b>55.76 &euro;
+</body></html>
+
+
+Status: send
+---------------------------------------------------------------------------------
+
+
+
+
+Time: 15-52-27
+
+From: noreply@sp-carparts.com.ua
+
+To: office@sp-carparts.com.ua
+
+Subject: Оформление заказа N K1-1838/7450 на сайте sp-carparts.com.ua
+
+URL: /shop/make_order.html?func=upd
+
+Charset: utf-8
+
+SystemCharset: utf-8
+
+Attachments: array (
+)
+
+Headers: Content-Type: text/html;
+charset="utf-8"
+From: Белоусов Павел <rksodess@mail.ru>
+Text: <html><body><table border="0" width="100%">
+
+
+<tr><td colspan=2><H3 style='margin-top: 15px'>Информация о клиенте<hr noshade size=1></H3></td></tr>
+
+<tr><td>Клиент</td><td>
+Белоусов Павел </td></tr>
+
+<tr><td><span style="white-space: nowrap">Контактное лицо, ФИО</span></td><td>Белоусов Павел </td></tr>
+<tr><td>Телефоны</td><td>+380985745153 (основной)</td></tr>
+<tr><td>E-mail</td><td>rksodess@mail.ru</td></tr>
+
+<tr><td colspan=2><H3 style='margin-top: 15px'>Исполнение заказа<hr noshade size=1></H3></td></tr>
+
+<tr><td>Способ оплаты</td><td><span style="white-space: nowrap">денежный перевод</span></td></tr>
+<tr><td></td><td>
+</td></tr>
+<tr><td>Способ доставки</td><td><nobr >грузовая компания</nobr></td></tr>
+<tr><td>Адрес доставки</td><td></td></tr>
+
+
+
+<tr><td>Комментарий к заказу</td><td></td></tr>
+
+<tr><td colspan=2><H3 style='margin-top: 15px'>Содержание заказа<hr noshade size=1></H3></td></tr>
+
+<tr>
+	<td colspan=2>
+		<table>
+			<tr>
+																															<th>Артикул</th>
+																		<th>Производитель</th>
+																		<th>Наименование запчасти</th>
+																		<th>Срок <span style="white-space: nowrap">ср. / <strong>гар.</strong></span></th>
+																		<th>вес, кг</th>
+																		<th>Доставка за кг<br />Вес</th>
+																		<th><img src="http://sp-carparts.com.ua/images/info.gif" alt="информация"/></th>
+																		<th>цена</th>
+																											<th>кол-во</th>
+																		<th>сумма</th>
+																											<th>комментарий</th>
+																																							</tr>
+						<tr>
+																															<td>A2086982130</td>
+																		<td>MERCEDES</td>
+																		<td>ОРИГИНАЛЬНАЯ НОВАЯ ДЕТАЛЬ</td>
+																		<td>7</td>
+																		<td></td>
+																		<td><span style="white-space: nowrap">0.00&#160;&euro;</span></td>
+																		<td></td>
+																		<td>22.24&#160;&euro;</td>
+																											<td>1</td>
+																		<td>22.24&#160;&euro;</td>
+																											<td></td>
+																																							</tr>
+					</table>
+	</td>
+</tr>
+
+<tr height=60>
+	<td colspan=2>
+		<table border="0" width="100%">
+		<tr>
+			<td width="50%"><strong>Общая сумма заказа: 22.24&#160;&euro;</strong></td>
+			<td align=right width="50%"></td>
+		</tr>
+		</table>
+	</td></tr>
+</table>с уважением , sp-carparts.com.ua
++38 044 428-20-45
++38 068 957-41-28
++38 093 475-72-46
++38 095 006-01-39
+Украина, г.Киев
+улица Луговая, 15</body></html>
+
+
+Status: send
+---------------------------------------------------------------------------------
+
+
+
+

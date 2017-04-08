@@ -1,0 +1,6 @@
+<?php /* Smarty version 2.6.14, created on 2016-12-24 13:16:37
+         compiled from /home/www/autocom.net.ua/www/_debug/mailllist_tmp_1482574597.tpl */ ?>
+<h3>НОВЫЙ ГОД 2017</h3>
+<p><span style="color: #777777; font-family: Verdana, 'Courier New', serif; font-size: 12px;">доброго времени суток, уважаемые коллеги!&nbsp;</span><span style="color: #777777; font-family: Verdana, 'Courier New', serif; font-size: 12px;">хотим поздравить вас с наступающим Новым 2017 годом!<br /></span></p>
+<p><span style="color: #777777; font-family: Verdana, 'Courier New', serif; font-size: 12px;">пусть в этом году сбудутся все ваши самые заветные желания!<br /><br />п.с. Все что не удалось получить в этом году , по региону EUROP , будет перезаказано по предварительному согласованию , цены будут пересчитаны в соответствии прайсам 2017 года . В этом году заказы по региону EUROP более не принимаются !<br /><br /></span></p>
+<p><span style="color: #777777; font-family: Verdana, 'Courier New', serif; font-size: 12px;">&nbsp;</span></p>

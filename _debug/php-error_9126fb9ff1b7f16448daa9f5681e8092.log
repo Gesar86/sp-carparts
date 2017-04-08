@@ -1,0 +1,16 @@
+[04-Apr-2017 14:53:46 Europe/Moscow] PHP Fatal error:  MySQL Error Query: #5.9.136.23 tl_ar_autocom ru.sp-carparts.com.ua/error404.html
+SELECT str_id,
+			  '/error404.html' = str_url_mask as URL_EQ,
+			  'ru.sp-carparts.com.ua' = str_domain as DOMAIN_EQ,
+			  'ru' = str_lng_id as LNG_EQ
+
+ 		FROM _objects_structure
+                
+ 		WHERE              	
+			'/error404.html' REGEXP concat('^',str_url_mask,'$')
+			
+			AND 'ru.sp-carparts.com.ua' REGEXP concat('^', COALESCE(NULLIF(str_domain, ''), '.*'), '$')
+			
+			AND ('ru' LIKE str_lng_id OR TRIM(str_lng_
+
+				 MySQL Error because: Unknown column 'str_url_mask' in 'field list' in /home/www/_LIB/_UNIVERSAL/database/servers/lib.mysql.php on line 0

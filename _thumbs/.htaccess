@@ -1,0 +1,2 @@
+RewriteEngine On
+ErrorDocument 404 /_phplib/images/getThumb.php
