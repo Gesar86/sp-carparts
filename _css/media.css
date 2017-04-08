@@ -2,7 +2,19 @@
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
-
+    header .top-header .description {
+        font-size: 14px;
+        line-height: 18px;
+    }
+    header .top-header .top-phone {
+        font-size: 18px;
+    }
+    header .top-header .top-address {
+        font-size: 14px;
+    }
+    header .top-header .currency {
+        font-size: 11px;
+    }
 }
 
 /* Medium Devices, Desktops */

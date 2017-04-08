@@ -38,6 +38,7 @@ $CONST["default_css_table"][] = "/ar2.css";
 $CONST["default_css_table"][] = "/mavselect.css";
 $CONST["default_css_table"][] = "/slide_menu.css";
 $CONST["default_css_table"][] = "/style.css";
+$CONST["default_css_table"][] = "/media.css";
 
 
 
