@@ -25,7 +25,9 @@ $__BUFFER->AddContent('CUSTOM_HEADER', '<meta http-equiv="X-UA-Compatible" conte
         <div class="container">
             <div class="row">
                 <div class="col-md-9">
-                    <? NavigationPart("top_menu", "USER_PHP_TEMPLATES:/content/tpl.left_menu.php", "DR_PHP"); ?>
+                    <nav class="main-mnu">
+                        <? NavigationPart("top_menu", "USER_PHP_TEMPLATES:/content/tpl.left_menu.php", "DR_PHP"); ?>
+                    </nav>
                 </div>
                 <div class="col-md-3">
                     <ul class="reg">
@@ -50,18 +52,18 @@ $__BUFFER->AddContent('CUSTOM_HEADER', '<meta http-equiv="X-UA-Compatible" conte
     <div class="top-header">
         <div class="container">
             <div class="row">
-                <div class="col-md-3">
+                <div class="col-sm-3">
                     <a href="/" class="logo">
                         <img src="img/logo.png" alt="Магазин автозапчастей sp-carparts">
                     </a>
                 </div>
-                <div class="col-md-3">
+                <div class="col-sm-3">
                     <? ContentPart('top_description'); ?>
                 </div>
-                <div class="col-md-3">
+                <div class="col-sm-3">
                     <? ContentPart('top_address'); ?>
                 </div>
-                <div class="col-md-3">
+                <div class="col-sm-3">
                     <? ContentPart('top_phones'); ?>
                 </div>
             </div>

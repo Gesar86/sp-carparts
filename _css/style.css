@@ -1,3 +1,12 @@
+h3 {
+    text-transform: uppercase;
+    margin-bottom: 12px;
+    font-size: 18px;
+}
+p {
+    margin-bottom: 10px;
+}
+
 body {
   font-family: "RobotoRegular", sans-serif;
   font-weight: normal;
@@ -66,7 +75,9 @@ header {
         background-image: url(../img/arrow-down.png); }
   header ul, header li {
     list-style-type: none; }
-    header ul li, header li li {
+header .main-mnu {
+    position: relative; }
+    header .main-mnu ul li, header .main-mnu li li {
       display: inline-block; }
       header ul li a, header li li a {
         color: #fff;
@@ -80,6 +91,9 @@ header {
     text-align: right; }
     header .reg .sign-in {
       background-color: #268acb; }
+
+header .top-header .logo {
+    display: block;}
   header .top-header {
     padding: 20px 0; }
     header .top-header .currency {

@@ -23,7 +23,7 @@ global $_SYSTEM;
 			}
 			?>
 			<? $lic++; ?>
-			<li class="lev1">
+			<li class="lev1 <?=($_SYSTEM->REQUESTED_PAGE == $ch_item['str_url'] ? 'act' : '')?>">
 				<a <?=((!empty($item['str_url']) and empty($item['has_childs']))?'href="'.$item['str_url'].'"':'')?> class="alev1"><?=tr($item['str_title'], 'AdminLeftMenu')?></a>
 				<ul class="ulev2">
 					<? if (!empty($item['has_childs'])) { ?>

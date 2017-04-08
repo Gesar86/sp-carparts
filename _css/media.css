@@ -19,7 +19,32 @@
 
 /* Medium Devices, Desktops */
 @media only screen and (max-width : 992px) {
-
+    header .top-header .description {
+        font-size: 13px;
+        line-height: 14px;
+        padding-left: 40px;
+    }
+    header .top-header .top-phone {
+        font-size: 14px;
+        line-height: 20px;
+        padding-left: 40px;
+    }
+    header .top-header .top-phone::before {
+        top: 5px;
+    }
+    header .top-header .top-address {
+        font-size: 13px;
+    }
+    header .top-header .top-address .t-cont {
+        padding-left: 40px;
+    }
+    header .top-header .top-address .t-mail {
+        line-height: 14px;
+    }
+    header .top-header .currency {
+        padding-left: 40px;
+        margin-top: 11px;
+    }
 }
 
 /* Small Devices, Tablets */
