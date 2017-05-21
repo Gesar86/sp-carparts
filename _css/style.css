@@ -7,6 +7,39 @@ p {
     margin-bottom: 10px;
 }
 
+#mpositions::scrollbar-button {
+  background-image:url('');
+  background-repeat:no-repeat;
+  width:10px;
+  height:0px;
+}
+
+
+#mpositions::scrollbar-track {
+  background-color:#ecedee;
+}
+
+#mpositions::scrollbar-thumb {
+  -webkit-border-radius: 0px;
+  border-radius: 0px;
+  background-color:#6dc0c8;
+}
+
+#mpositions::scrollbar-thumb:hover{
+  background-color:#56999f;
+}
+
+#mpositions::resizer{
+  background-image:url('');
+  background-repeat:no-repeat;
+  width:4px;
+  height:0px;
+}
+
+#mpositions::scrollbar{
+  width: 4px;
+}
+
 body {
   font-family: "RobotoRegular", sans-serif;
   font-weight: normal;
@@ -491,3 +524,75 @@ footer {
   .div_inline {
     display: inline-block;
   }  .informer {	  display: inline-block;	  margin-top: 30px;  }
+
+.page-catalog h1 {
+  margin-top: 0;
+}
+
+.page-catalog .row-border {
+  margin-bottom: 18px;
+  border-bottom: 1px solid #b2b2b2;
+}
+.page-catalog .brand {
+   display: block;
+   padding-left: 104px;
+   position: relative;
+   margin-bottom: 18px;
+  color: black;
+ }
+.page-catalog .brand:hover {
+  text-decoration: none;
+}
+.page-catalog .brand span {
+  font-size: 18px;
+}
+.page-catalog .brand:before {
+  content: "";
+  position: absolute;
+  width: 92px;
+  height: 92px;
+  top: 0;
+  left: 0;
+  background-repeat: no-repeat;
+  -webkit-background-size: contain;
+  background-size: contain;
+  background-position: 0;
+}
+.page-catalog .brand_audi:before {
+  background-image: url(../images/catalog/audi.png);
+}
+.page-catalog .brand_infinity:before {
+  background-image: url(../images/catalog/infiniti.png);
+  background-position: 0 10px;
+}
+.page-catalog .brand_merc:before {
+  background-image: url(../images/catalog/mercedes.png);
+}
+.page-catalog .brand_nissan:before {
+  background-image: url(../images/catalog/nissan.png);
+}
+.page-catalog .brand_seat:before {
+  background-image: url(../images/catalog/seat.png);
+}
+.page-catalog .brand_skoda:before {
+  background-image: url(../images/catalog/skoda.png);
+}
+.page-catalog .brand_toyota:before {
+  background-image: url(../images/catalog/toyota.png);
+  background-position: 0 10px;
+}
+.page-catalog .brand_vw:before {
+  background-image: url(../images/catalog/volkswagen.png);
+}
+.overflow-content form {
+  overflow-x: scroll;
+}
+.datepicker_dashboard_ranger {
+  z-index: 1000;
+  width: 194px !important;
+  height: 174px !important;
+}
+.DateTimeBox_i {
+  top: -27px !important;
+  right: -21px !important;
+}

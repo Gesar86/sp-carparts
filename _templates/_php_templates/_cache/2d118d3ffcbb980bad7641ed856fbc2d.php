@@ -6,7 +6,7 @@
 
 <? } else { ?>
 	
-	<?  ?><?if (strstr($_SERVER["HTTP_USER_AGENT"], "MSIE")) {	echo '<style type="text/css">.vin_form .fvalue{position:relative;padding-right:5px !important;}</style>';}?><div id="vin_page">	<?= $vin_requests['validationScript'] ?>	<form id="<?= $vin_requests['id'] ?>" name="<?= $vin_requests['name'] ?>" action="<?= $vin_requests['action'] ?>" method="<?= $vin_requests['method'] ?>" onsubmit="<?= $vin_requests['onsubmit'] ?>">		<?= $vin_requests['fields']['__cst_id__']['html'] ?>		<div>			<? if ($vin_requests['messages']['registration_error_fields']) { ?>				<?  ?><div class="error">
+	<?  ?><?if (strstr($_SERVER["HTTP_USER_AGENT"], "MSIE")) {	echo '<style type="text/css">.vin_form .fvalue{position:relative;padding-right:5px !important;}</style>';}?><div id="vin_page">	<?= $vin_requests['validationScript'] ?>	<form id="<?= ($vin_requests['id'] ? $vin_requests['id'] : $vin_requests['name']) ?>" name="<?= $vin_requests['name'] ?>" action="<?= $vin_requests['action'] ?>" method="<?= $vin_requests['method'] ?>" onsubmit="<?= $vin_requests['onsubmit'] ?>">		<?= $vin_requests['fields']['__cst_id__']['html'] ?>		<div>			<? if ($vin_requests['messages']['registration_error_fields']) { ?>				<?  ?><div class="error">
 <?=$MSG['RegistrationModule']['msg63']?>
 <?=$MSG['RegistrationModule']['msg66']?>
 <?=($vin_requests['messages']['registration_error_passwords_mismatch']?$MSG['RegistrationModule']['msg82']:'')?>

@@ -1,6 +1,9 @@
 <?
-$__BUFFER->addScript('/_syslib/squeezebox/squeezebox.js');
-$__BUFFER->addCSS('/_syslib/squeezebox/squeezebox.css');
+global $CONST;
+if (!$CONST['war55']) {
+	$__BUFFER->addScript('/_syslib/squeezebox/squeezebox.js');
+	$__BUFFER->addCSS('/_syslib/squeezebox/squeezebox.css');
+}
 ?>
 
 <?

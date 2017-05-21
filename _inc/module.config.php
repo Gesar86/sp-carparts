@@ -2,7 +2,7 @@
 
 //	PROJECT SETTINGS
 
-$CONST["project_name"] = "autocom.net.ua";
+$CONST["project_name"] = "sp-carparts.com.ua";
 
 
 
@@ -53,6 +53,7 @@ if (strpos($_SERVER["REQUEST_URI"], "/admin/") === false) {
 	$CONST["default_client_script"][] = "/slide_menu.js";
 	$CONST["default_client_script"][] = "/cf.js";
 	$CONST["default_client_script"][] = "/jquery.magnific-popup.min.js";
+	$CONST["default_client_script"][] = "/common.js";
 
 
 

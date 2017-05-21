@@ -1,4 +1,4 @@
-<? global $_SYSTEM; ?>
+<? global $_SYSTEM, $_USER; ?>
 <script>
 	function resetCache(cacheType) {
 
@@ -18,21 +18,12 @@
 
 <table cellpadding="3" cellspacing="1" class="admin_edit_table">
 	<tr>
-		<td class="cache-name"><?= tr('Кэш аналогов', '_components_cache_settings') ?></td>
-		<td class="cache-state"><?= trp('В кэше %s записей', '_components_cache_settings', $cacheAnalogsState) ?></td>
+		<td class="cache-name"><?= tr('Кэш поиска', '_components_cache_settings') ?></td>
+		<td class="cache-state"><?= trp('Последний раз кэш сбрасывался %s', '_components_cache_settings', date('d.m.Y H:i:s', $resetSearchCacheLastDate)) ?></td>
 		<td class="cache-reset">
-			<input type="submit" onclick="resetCache('Analogs')" value="<?= tr('Сбросить', 'Common') ?>"></td>
+			<input type="submit" onclick="resetCache('Search')" value="<?= tr('Сбросить', 'Common') ?>"></td>
 		<td class="info">
-			<img src="/_sysimg/ar2/help.png" hspace="5" border="0" align="absmiddle" alt="<?= $msg = tr('Хранит в себе список аналогов и замен для искомого кода в различных режимах поиска. Сбрасывается по расписанию раз в час.', '_components_cache_settings'); ?>" title="<?= $msg ?>"/>
-		</td>
-	</tr>
-	<tr>
-		<td class="cache-name"><?= tr('Кэш первого шага поиска (производителей)', '_components_cache_settings') ?></td>
-		<td class="cache-state"><?= trp('В кэше %s артикулов', '_components_cache_settings', $cacheProducersState) ?></td>
-		<td class="cache-reset">
-			<input type="submit" onclick="resetCache('Producers')" value="<?= tr('Сбросить', 'Common') ?>"></td>
-		<td class="cache-info">
-			<img src="/_sysimg/ar2/help.png" hspace="5" border="0" align="absmiddle" alt="<?= $msg = tr('Хранит в себе список производителей искомого артикула, одинаковый для всех клиентов. Сбрасывается по расписанию раз в час.', '_components_cache_settings'); ?>" title="<?= $msg ?>"/>
+			<img src="/_sysimg/ar2/help.png" hspace="5" border="0" align="absmiddle" alt="<?= $msg = tr('Это кеш аналогов, производителей искомого артикула, синонимов и концерном в различных режимах поиска и для всех языков сайта. Сбрасывается по расписанию раз в час.', '_components_cache_settings'); ?>" title="<?= $msg ?>"/>
 		</td>
 	</tr>
 	<tr>
@@ -88,4 +79,15 @@
 			<img src="/_sysimg/ar2/help.png" hspace="5" border="0" align="absmiddle" alt="<?= $msg = tr('PHP-кэш предназначен для кэширования готовых html-блоков и сбора одного пхп-шаблона из его составляющих. Настройки PHP-кэша по типам регулируются ниже.', '_components_cache_settings'); ?>" title="<?= $msg ?>"/>
 		</td>
 	</tr>
+	<? if($_USER['info']['group_id'] == "root") { ?>
+	<tr>
+		<td class="cache-name"><?= tr('memcache', '_components_cache_settings') ?></td>
+		<td class="cache-state"></td>
+		<td class="cache-reset">
+			<input type="submit" onclick="resetCache('Mem')" value="<?= tr('Сбросить', 'Common') ?>"></td>
+		<td class="cache-info">
+			<img src="/_sysimg/ar2/help.png" hspace="5" border="0" align="absmiddle" alt="<?= $msg = tr('memcache позволяет кэшировать данные на основе хеш-таблиц в оперативной памяти множества доступных серверов.', '_components_cache_settings'); ?>" title="<?= $msg ?>"/>
+		</td>
+	</tr>
+	<? } ?>
 </table>

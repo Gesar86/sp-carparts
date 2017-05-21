@@ -16,7 +16,7 @@ $_PG_rowsAtPage = 3;
 
 		$tableName = $_USER['adapter']->has_table($tableObject['str_name'])?
 				$tableObject['str_name']:
-				$CONST['db_table_prefix']."struc_table_".$tableObject['str_id'];
+				"struc_table_".$tableObject['str_id'];
 				
 
 		if ($_USER['adapter']->has_table($tableName)) {
@@ -30,7 +30,7 @@ $_PG_rowsAtPage = 3;
 			$query = "
 			
 			SELECT *
-			FROM ".$CONST['db_table_prefix']."_meta_fields
+			FROM _meta_fields
 			WHERE mf_table = '".$tableName."'
 			ORDER BY mf_order
 			
@@ -67,7 +67,7 @@ $_PG_rowsAtPage = 3;
 			WHERE 1 = 1
 			
 			".(in_array("domain", $tableDBInfo)?" AND '".$_SYSTEM->DOMAIN."' 
-				REGEXP concat('^', COALESCE(domain, '.*'), '\$')":"")."
+				REGEXP concat('^', COALESCE(NULLIF(domain, ''), '.*'), '\$')":"")."
 				
 			".(in_array("lng", $tableDBInfo)?" AND '".$_SYSTEM->LNG."' = `lng`":"")."
 			

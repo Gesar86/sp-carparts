@@ -125,12 +125,17 @@
 
 /* Small Devices, Tablets */
 @media only screen and (max-width : 768px) {
+    header .reg li a {
+        font-size: 11px;
+        padding: 0 12px;
+    }
     header .top-header .logo {
         text-align: center;
     }
     header .top-header .description {
         margin-top: 20px;
         text-align: center;
+        padding-left: 0;
     }
     header .top-header .description::before {
         display: none;
@@ -143,7 +148,7 @@
     header .top-header .top-address {
 
     }
-    .top-header .top-address .t-cont {
+    header .top-header .top-address .t-cont {
         float: left;
     }
     header .top-header .top-address .t-address {
@@ -165,12 +170,28 @@
     header .top-header .top-address .t-skype::before {
         top: -1px;
     }
+    .detail-search {
+        padding-left: 12px;
+    }
+    .detail-search input {
+        width: 85%;
+    }
     .informer {
         display: none;
     }
     footer .phone-bottom {
         text-align: left;
     }
+    footer ul li a {
+        text-decoration: underline;
+    }
+    footer .copyright_box {
+        text-align: center;
+    }
+    footer .copyright_box .copyright_ts {
+        text-align: center;
+    }
+
 }
 
 /* Extra Small Devices, Phones */

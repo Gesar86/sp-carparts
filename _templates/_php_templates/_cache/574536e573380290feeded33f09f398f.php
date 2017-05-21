@@ -2322,7 +2322,7 @@ if(!empty($alternatives)) {
 $assocBasketWares = array();
 if (count($basketWares) > 0) {
 	foreach ($basketWares as $basketValue) {
-		$assocBasketWares[$basketValue['provider_id']][$basketValue['brand']][$basketValue['article']][(float)$basketValue['price_netto']][$basketValue['destination']] = ['amount' => $basketValue['amount']];
+		$assocBasketWares[$basketValue['provider_id']][$basketValue['brand']][$basketValue['article']][(float)$basketValue['price_netto']][$basketValue['destination']][(int)$basketValue['term']][strval(round($basketValue['supplier_price_value'],2))] = ['amount' => $basketValue['amount']];
 	}
 }
 ?>
@@ -2875,12 +2875,12 @@ $indexGroup = 0;
 
 	<? if (($row['info_only'] != '1') || ($row['provider_price'] > 0)) { ?>
 
-		<? if (isset($assocBasketWares[$row['provider_id']][$row['brand']][$row['article']][(float)$row['final_netto_price']][$row['destination']])) { ?>
+		<? if (isset($assocBasketWares[$row['provider_id']][$row['brand']][$row['article']][(float)$row['final_netto_price']][$row['destination']][(int)$row['term']][strval(round($row['final_manager_price'],2))])) { ?>
 			<span class="button button_to_basket">
 				<a href="/shop/basket.html" title="<?=tr('В корзину', 'SearchModule')?>">
 					<span class="basket_active_img"></span>
 					<span class="basket_items_count">
-						<?= $assocBasketWares[$row['provider_id']][$row['brand']][$row['article']][(float)$row['final_netto_price']][$row['destination']]['amount'] ?>
+						<?= $assocBasketWares[$row['provider_id']][$row['brand']][$row['article']][(float)$row['final_netto_price']][$row['destination']][(int)$row['term']][strval(round($row['final_manager_price'],2))]['amount'] ?>
 					</span>
 				</a>
 			</span>
@@ -3752,12 +3752,12 @@ if(!empty($alternatives)) {
 </script>
 <div style="display:none;"><img src="/images/add_basket_loader.gif" /></div>
 <?
-	$assocBasketWares = array();
-	if (count($basketWares) > 0) {
-		foreach($basketWares as $basketValue) {
-			$assocBasketWares[$basketValue['provider_id']][$basketValue['brand']][$basketValue['article']][(float)$basketValue['price_netto']][$basketValue['destination']] = true;
-		}
+$assocBasketWares = array();
+if (count($basketWares) > 0) {
+	foreach ($basketWares as $basketValue) {
+		$assocBasketWares[$basketValue['provider_id']][$basketValue['brand']][$basketValue['article']][(float)$basketValue['price_netto']][$basketValue['destination']][(int)$basketValue['term']][strval(round($basketValue['supplier_price_value'],2))] = ['amount' => $basketValue['amount']];
 	}
+}
 ?>
 
 <div id="fixedCaption" style="display:none;">
@@ -4052,8 +4052,15 @@ if (($isProvider['provider_id'] == $row['provider_id']) && ($row['provider_id']>
 
 	<? if (($row['info_only'] != '1') || ($row['provider_price'] > 0)) { ?>
 
-		<? if ($assocBasketWares[$row['provider_id']][$row['brand']][$row['article']][(float)$row['final_netto_price']][$row['destination']]) { ?>
-			<img src="/_sysimg/ver_ok.png" alt="<?=tr('Заказано', 'SearchModule')?>" title="<?=tr('Заказано', 'SearchModule')?>"/>
+		<? if (isset($assocBasketWares[$row['provider_id']][$row['brand']][$row['article']][(float)$row['final_netto_price']][$row['destination']][(int)$row['term']][strval(round($row['final_manager_price'],2))])) { ?>
+			<span class="button button_to_basket">
+				<a href="/shop/basket.html" title="<?=tr('В корзину', 'SearchModule')?>">
+					<span class="basket_active_img"></span>
+					<span class="basket_items_count">
+						<?= $assocBasketWares[$row['provider_id']][$row['brand']][$row['article']][(float)$row['final_netto_price']][$row['destination']][(int)$row['term']][strval(round($row['final_manager_price'],2))]['amount'] ?>
+					</span>
+				</a>
+			</span>
 		<? } else { ?>
 			<span id="action<?= $row['_search_id'] ?>"><?= $row['amount'] ?> <?= $row[$hdr_id] ?></span>
 			<input type="hidden" id="max_amount_<?=$row['_search_id']?>" value="<?=($_interface->csLeadLettersToNumberForCheckRemains ? strToFloat($row['remains']) : (float)$row['remains'])?>"/>
@@ -4416,9 +4423,9 @@ if (($isProvider['provider_id'] == $row['provider_id']) && ($row['provider_id']>
 			initSQBox();
 		}
 	}
-	window.addEvent('domready', function () {
-		setTimeout(initScripts, 500);
 
+	jqWar(document).ready(function () {
+		setTimeout(initScripts, 500);
 	});
 
 </script>
